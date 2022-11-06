@@ -69,8 +69,6 @@ body{
     font-size: 16px;
     color: #fff;
     text-align: center;
-    
-
 }
 .btn{
     display: block;
@@ -88,4 +86,21 @@ body{
 .btn:hover{
     background: #ff004f;
     transform: translateY(-5px);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+    .container{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-card{
+        margin-top: 0;
+    }
+    
 }
